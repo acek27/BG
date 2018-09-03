@@ -1,0 +1,293 @@
+/* GLOBAL CSS ------------------------------------------*/
+
+body { font-family: "Roboto", sans-serif; font-size: 13px; color: #666 }
+
+.login-page {
+    background: #333;
+}
+
+a, a:hover { color: #36BEEA }
+
+a:visited, a:focus, a:hover { outline: none; border: none; text-decoration: none }
+
+.container { width: 1100px; padding: 0px }
+
+.page-dashboard .container { width: 1200px }
+
+.page-dashboard.crud #main .container { width: 900px }
+
+.page-dashboard .container.uji { width: 800px }
+
+/* BUTTON */
+
+.btn { background: brown; min-width: 100px; max-height: 40px; font-weight: 500; display: inline-block; padding: 0px 15px; border: none; border-radius: 3px; text-transform: uppercase; cursor: pointer; color: #fff; font-family: 'Roboto', sans-serif; line-height: 40px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box }
+
+.btn:hover, .btn:visited, .btn:focus { color: #fff; outline: none }
+
+.btn .md { font-size: 18px; vertical-align: bottom; line-height: inherit }
+
+.btn-raised { -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33); box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33); -webkit-transition: -webkit-box-shadow 0.15s ease-out; -moz-transition: -moz-box-shadow 0.15s ease-out; -o-transition: -o-box-shadow 0.15s ease-out; transition: box-shadow 0.15s ease-out }
+
+.btn-raised:hover { -webkit-box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.38); box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.38); color: #fff }
+
+.btn-raised.disabled, .btn-raised[disabled] { -webkit-box-shadow: none; box-shadow: none }
+
+.modal-content .btn { line-height: 35px }
+
+/* CARD */
+
+.card { position: relative; background-color: #fff; color: #313534; border-radius: 2px; -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33); box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33) }
+
+.card-body { padding: 15px; position: relative }
+
+/* TABLE */
+
+table { width: 100%; color: #777 }
+
+table th { vertical-align: middle; text-transform: uppercase; padding: 8px; text-align: center; line-height: 25px; border-bottom: 2px solid #ddd }
+
+table tbody tr:hover { background: #f5f5f5 }
+
+table tbody td { padding: 8px; border-top: 1px solid #ddd; vertical-align: top; line-height: 20px; text-align: center; vertical-align: middle;}
+
+table tbody td .md { font-size: 18px; color: #777; margin-right: 5px }
+
+/* HEADER */
+
+header { width: 100%; position: fixed; top: 0; z-index: 999; background: brown; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.24) }
+
+header .logo { line-height: 70px }
+
+header .logo img { max-height: 50px }
+
+header .nav > ul > li { line-height: 70px; margin-left: 40px; position: relative }
+
+header .nav > ul > li > a, header .nav > ul > li > button { color: #fff; font-size: 14px; font-weight: 500; border: none; background: none; font-family: 'Roboto', sans-serif; cursor: pointer }
+
+header .nav > ul > li > button:focus { background: none; border: none }
+
+header .nav > ul > li > a i { font-size: 20px; position: absolute; line-height: 70px; right: 0px; top: 0px }
+
+header .nav > ul > li > a span { padding-right: 20px }
+
+header .nav-m > .left { line-height: 70px; max-height: 70px }
+
+header .nav-m > .left > a { color: #fff; font-size: 24px }
+
+header .nav-m { display: none }
+
+header .dropdown-menu { top: 50px }
+
+/* MAIN */
+
+#main { margin: 70px 0px 0px }
+
+/* FOOTER */
+
+footer { width: 100%; padding: 25px 0px; font-size: 12px; color: #666 }
+
+footer ul li { margin-left: 20px }
+
+footer ul li a { color: #666; font-size: 12px }
+
+/* FORM */
+
+form { color: #888 }
+
+form .form-group { margin-bottom: 15px; position: relative }
+
+form label { display: block; text-align: left; font-size: 12px; line-height: 15px }
+
+form .input-area { border: none; font-family: "Roboto", sans-serif; font-size: 14px; width: 100%; color: #888; padding: 0px; line-height: 40px; height: 40px; border-bottom: 1px solid #ddd; -webkit-appearance: none; -moz-appearance: none; appearance: none }
+
+form .input-area:focus { border-bottom: 1px solid #36BEEA }
+
+form .input-area[disabled], form .input-area[readonly] { background: none; border-bottom: 1px dashed #ddd; cursor: not-allowed }
+
+form textarea.input-area { line-height: 25px; height: auto }
+
+form .select { position: relative }
+
+form .select i { font-size: 20px; position: absolute; line-height: 40px; right: 5px }
+
+form select { z-index: 1; background: none; cursor: pointer }
+
+form .form-group.checkbox { padding: 0px 0px 0px 20px }
+
+form input[type="checkbox"] { position: absolute; left: 0px; margin: 0px; cursor: pointer }
+
+/* PAGE HOME -------------------------------------------*/
+
+/* HEADER */
+
+.page-full header { background: none; box-shadow: none }
+
+.page-full header .logo, .page-full header .nav > ul > li, .page-full header .nav > ul > li > a i { line-height: 120px }
+
+.page-full header .nav-m > .left { line-height: 100px; max-height: 100px }
+
+.page-full header .dropdown-menu { top: 80px }
+
+/* MAIN */
+
+.page-full #main { margin: 0px }
+
+.page-full section { width: 100%; height: 100vh; background-image: url("../img/hires/homepage_hires.jpg"); background-size: cover }
+
+.page-full .area { width: 100%; height: 100%; display: table; text-align: center; background: rgba(0, 0, 0, 0.5); margin: 0 auto; overflow: scroll }
+
+.page-full .cell { display: table-cell; vertical-align: middle }
+
+.page-full .cell h1 { font-size: 25px; font-weight: 300; color: #FFF; margin-bottom: 30px }
+
+.page-full .cell a { background: #fff; color: #666; padding: 0px 20px; display: inline-block; line-height: 40px; border-radius: 3px; font-size: 16px }
+
+/* FOOTER */
+
+.page-full footer { position: absolute; bottom: 0px; color: #fff; padding: 30px 0px }
+
+.page-full footer ul li a { color: #fff }
+
+/* PAGE LOGIN & REGISTER -------------------------------*/
+
+.page-logreg #title { text-align: center; margin: 70px 0px 25px }
+
+.page-logreg #title h3 { font-size: 30px; font-weight: 700; margin-bottom: 15px; color: white }
+
+.page-logreg #title p { font-size: 17px; font-weight: 300 }
+
+.page-logreg form { width: 325px; margin: 0 auto }
+
+.page-logreg button[type="submit"] { width: 100%; line-height: 40px }
+
+.page-logreg .kesan label { text-align: center }
+
+/* PAGE DASHBOARD --------------------------------------*/
+
+.page-dashboard .title { font-size: 20px; margin-top: 40px; font-weight: 500; color: #888; position: relative; padding-left: 30px; line-height: 24px }
+
+.page-dashboard .title i { font-size: 24px; position: absolute; left: 0px }
+
+.page-dashboard .toolbar .select { position: relative }
+
+.page-dashboard .toolbar .select i { font-size: 20px; position: absolute; line-height: 40px; right: 10px; z-index: -1 }
+
+.page-dashboard .toolbar select { border: 1px solid #ddd; height: 40px; padding: 10px 30px 10px 10px; cursor: pointer; border-radius: 3px; font-family: 'Roboto', sans-serif; color: #666; z-index: 1; background: none; -webkit-appearance: none; -moz-appearance: none; appearance: none }
+
+.page-dashboard .section { margin-top: 20px }
+
+.page-dashboard .btn { margin-right: 15px }
+
+.page-dashboard .modal-content .btn { margin-right: 0px }
+
+.page-dashboard .panuji { margin-top: 75px; text-align: center }
+
+.page-dashboard .panuji img { max-width: 200px }
+
+.page-dashboard .panuji p { font-weight: 300; font-size: 25px; width: 600px; margin: 30px auto 20px; line-height: 35px }
+
+.page-dashboard .panuji .btn { margin: 0px }
+
+.page-dashboard .nav-tabs > li:not(.active) > a:hover { background: #36BEEA; color: #fff; border: 1px solid #36BEEA }
+
+.page-panuji .pertanyaan { text-align: center; font-size: 25px; font-weight: 300; margin: 40px auto 0px; line-height: 35px }
+
+.page-panuji form { width: 300px; margin: 30px auto }
+
+.page-panuji input { border: 1px solid #ddd; width: 100%; line-height: 60px; font-weight: 300; height: 60px; border-radius: 4px; text-align: center; font-size: 25px; color: #888 }
+
+.page-panuji .penjelasan { width: 650px; margin: 0px auto; border: 1px dashed #ddd; padding: 20px }
+
+.page-panuji .penjelasan h5 { font-weight: 500; margin-bottom: 7px; text-transform: uppercase }
+
+.page-panuji .penjelasan p { line-height: 25px }
+
+.page-panuji .reset { margin-top: 30px; text-transform: uppercase; display: inline-block; float: right; font-weight: 500 }
+
+.page-dashboard .panduan .list { padding: 15px; position: relative; border: 1px dashed #ddd; background: #fff; color: #888; line-height: 40px; font-size: 20px; font-weight: 300 }
+
+.page-dashboard .panduan .list .left i { font-size: 24px; line-height: 40px; height: 40px; position: absolute; border-radius: 40px; width: 40px; text-align: center; color: #fff }
+
+.page-dashboard .basker { width: 350px; margin: 0 auto; }
+
+.page-panuji .nextprev { margin: 25px auto 0px; width: 650px }
+
+.page-dashboard .panduan .list span { padding-left: 55px }
+
+.page-dashboard .panduan .final { margin-bottom: 50px; text-align: center; font-size: 22px; font-weight: 300; line-height: 50px }
+
+.page-dashboard.hasil .mobile { display: none }
+
+.page-dashboard .panduan .isi { font-size: 17px; font-weight: 300; line-height: 35px; border: 1px dashed #ddd; padding: 20px; color: #888 }
+
+.page-dashboard .panduan .nama_panduan h4 { font-size: 25px; font-weight: 300 }
+
+.page-dashboard .panduan .isi_panduan p { border: 1px dashed #ddd; padding: 20px; font-size: 20px; font-weight: 300; line-height: 40px }
+
+/* RESPONSIVE ------------------------------------------*/
+
+@media screen and (max-width: 1024px) {
+    .container, .page-dashboard .container { width: 90% }
+}
+
+@media screen and (max-width: 720px) {
+
+    header .nav { display: none }
+
+    header .nav-m { display: block }
+
+    .page-full .cell h1 { width: 90%; margin: 0 auto 20px; line-height: 35px; font-size: 18px }
+
+    .page-logreg #title { margin: 50px 0px 25px }
+
+    .page-logreg #title p { font-size: 14px; line-height: 20px }
+
+    .page-logreg form { width: 100% }
+
+    .page-dashboard .panuji { margin-top: 50px }
+
+    .page-dashboard .panuji img { max-width: 150px }
+
+    .page-dashboard .panuji p { width: 100%; font-size: 15px; line-height: 25px }
+
+    .page-dashboard .title { margin-top: 30px }
+
+    .page-dashboard .basker { width: 100% }
+
+    .page-dashboard .basker li { float: none; margin: 0px 0px 15px; display: block }
+
+    .modal-dialog.modal-sm { max-width: 90%; margin: 30px auto 0px }
+
+    .page-dashboard .container.uji, .page-dashboard.crud #main .container { width: 90% }
+
+    .page-dashboard .title { font-size: 13px; margin: 20px 0px 0px }
+
+    .page-panuji .pertanyaan { font-size: 15px; line-height: 25px; font-weight: normal }
+
+    .page-panuji form { width: 100%; margin: 20px auto }
+
+    .page-panuji .penjelasan { width: 100%; box-sizing: border-box; padding: 10px }
+
+    .page-panuji .nextprev { width: 100%; margin: 20px 0px }
+
+    .page-panuji .reset { margin: 20px 0px 40px; display: block }
+
+    .page-dashboard .panduan .list { width: 100%; box-sizing: border-box; padding: 10px; font-size: 13px; line-height: 30px }
+
+    .page-dashboard .panduan .list .btn { margin: 0px; display: block; line-height: 30px; padding: 0px; max-width: 90px; width: 90px; min-width: 90px }
+
+    .page-dashboard .panduan .list .left i { height: 30px; line-height: 30px; width: 30px }
+
+    .page-dashboard .panduan .list span { padding-left: 40px }
+
+    .page-dashboard .panduan .final { margin-bottom: 50px; text-align: center; font-size: 14px; font-weight: 300; line-height: 25px }
+
+    .page-dashboard.hasil .desktop { display: none }
+
+    .page-dashboard.hasil .mobile { display: block }
+
+    .page-dashboard .panduan .isi_panduan p { font-size: 14px; padding: 15px; line-height: 25px }
+
+    .page-dashboard .panduan .isi { font-size: 13px; line-height: 25px; padding: 10px }
+
+}
